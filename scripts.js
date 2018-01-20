@@ -3,7 +3,7 @@ $(document).ready(function(){
   event.preventDefault();
   var userInput = $("input#sentence").val();
   //var ones = ["1", "10", "11", "12","13", "14", "15", "16", "17", "18", "19", "21"]
-  for (var i = 1; i <= 121; i ++) {
+  for (var i = 1; i <= 21; i ++) {
     alert(i);
     if ( i % 3 == 0)
       alert("beep!");
